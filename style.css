@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 200px;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header>img {
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.catalog {
+    color: gray;
+    cursor: pointer;
+    width: 28%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.for-user {
+    display: flex;
+    align-items: center;
+    padding-left: 50%;
+    gap: 40px;
+}
+
+.use-photo {
+    width: 35%;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-left: 45px;
+}
+
+.sneakers {
+    width: 35%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sneakers {
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.thumbnails {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thumbnails>img {
+    width: 16%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.thumbnails>img:hover {
+    border: 3px solid orangered;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 65%;
+    padding: 50px;
+    /* max-width: 500px; */
+}
+
+.brand {
+    padding-top: 70px;
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 10px 0px;
+}
+
+.description {
+    color: gray;
+    padding: 20px 0px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.price-tag {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price-now {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.discount {
+    background-color: rgb(0, 0, 17);
+    border-radius: 6px;
+    padding: 4px 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 15px;
+}
+
+.action {
+    margin-top: 20px;
+    /* padding-top: 40px; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.icons {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.minus,
+.plus {
+    cursor: pointer;
+}
+
+.button-cart {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.button-cart>img {
+    padding-right: 20px;
+}
